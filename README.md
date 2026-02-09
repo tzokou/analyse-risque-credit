@@ -66,16 +66,24 @@ Le travail a été structuré selon les étapes suivantes :
 
 ---
 
-## 🖼️ Visuels – distributions et valeurs aberrantes
+### Visuels – distributions et détection des valeurs aberrantes
 
-Les figures ci-dessous illustrent, pour chaque variable numérique, la distribution des valeurs
-(histogrammes avec densité) ainsi que la détection des valeurs aberrantes à l’aide de boxplots.
+Les figures ci-dessous illustrent, pour chaque variable numérique du jeu de données,
+la distribution des valeurs à l’aide d’histogrammes avec estimation de densité (KDE),
+ainsi que la détection des valeurs aberrantes à l’aide de boxplots.
+
+Chaque variable est visualisée individuellement afin de faciliter l’interprétation
+des statistiques descriptives (moyenne, médiane, dispersion) et d’identifier les
+comportements atypiques susceptibles d’influencer les analyses multivariées ultérieures.
+
+#### Exemples de visuels générés automatiquement
 
 ![Distribution et boxplot de l’âge](images/age_distribution.png)
 
 ![Distribution et boxplot du solde](images/balance_distribution.png)
 
 ![Distribution et boxplot de la durée](images/duration_distribution.png)
+
 
 ---
 
